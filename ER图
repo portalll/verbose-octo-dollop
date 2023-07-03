@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T06:54:28.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ru1ZWQ_KX0UwI_CWYEhR" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T03:02:43.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wsJK_ghRBWjLs48V_STA" version="21.5.1" type="github">
   <diagram id="emXXhcL5uQyzkvFPXckB" name="第 1 页">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
             <mxRectangle width="30" height="350" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7UaSm1GUl9YNBHcXOyPS-7" value="int  certType ;1：签名单证，2：双证，3-加密单证&#xa; int  customerType;个人-1，企业-2&#xa; string userName;&#xa; string identNo;证件号码&#xa;string serialNumber 序列号&#xa;int status  0正常，1冻结，2吊销&#xa;string startDate 起始日期时间戳&#xa;string dueDate 截止日期时间戳&#xa;string dn  证书主题&#xa;string algorithmType  算法类型SM2,,RSA&#xa;string data 证书字节&#xa;    &#xa;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="7UaSm1GUl9YNBHcXOyPS-5" vertex="1">
+        <mxCell id="7UaSm1GUl9YNBHcXOyPS-7" value="int  certType ;1：签名单证，2：双证，3-加密单证&#xa; int  customerType;个人-1，企业-2&#xa; string userName;&#xa; string identNo;证件号码&#xa;string serialNumber 序列号&#xa;int status  0正常，1冻结，2吊销&#xa;string startDate 起始日期时间戳&#xa;string dueDate 截止日期时间戳&#xa;string dn  证书主题&#xa;string algorithmType  算法类型SM2,,RSA&#xa;string data 证书字节&#xa; string applicationId 从网关获取应用id&#xa;string authorizationCode 授权码&#xa;string expirationTime 授权码过期时间&#xa;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="7UaSm1GUl9YNBHcXOyPS-5" vertex="1">
           <mxGeometry x="30" width="360" height="350" as="geometry">
             <mxRectangle width="360" height="350" as="alternateBounds" />
           </mxGeometry>
